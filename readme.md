@@ -9,7 +9,7 @@ Estudando JavaScript ES6.
 - [x] Introdução
 - [x] Instalando Node & Yarn
 - [x] Configurando Babel
-- [ ] Classes
+- [x] Classes
 - [ ] Const & Let
 - [ ] Operações em Array
 - [ ] Arrow Function
