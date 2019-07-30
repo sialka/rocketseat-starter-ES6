@@ -1,19 +1,21 @@
-// Class TodoList
-class TodoList{
- constructor(){
-   this.todos = [];
- } 
+// Exemplo de Herança
 
- // Método addTodo
- addTodo(){
-   this.todos.push('item');
-   console.log(this.todos);
- }
+class List {
+  constructor(){
+    this.data = [];    
+  }
 
+  add(data) {
+    this.data.push(data);
+    console.log(this.data);
+  }
+}
+
+class TodoList extends List{
 }
 
 const MinhaLista = new TodoList();
 
 document.getElementById('adicionar').onclick = function() {
-  MinhaLista.addTodo();
+  MinhaLista.add('Item');  
 }
